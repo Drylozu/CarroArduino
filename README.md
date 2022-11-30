@@ -3,7 +3,7 @@ Este es un proyecto de un carro hecho con Arduino controlado por WiFi. [Redirecc
 
 Los controles son código HTML con CSS y JS dentro de él. Están en el archivo `controles.html` y cualquier cambio a estos deben ser minificados a lo más mínimo posible, reemplazando la constante global `CONTROL_HTML` (línea 23 del archivo `CarroArduino.ino`) con su versión minificada.
 
-<img src="./control.png" height="200">
+<img src="./control.png" height="300">
 
 ## Componentes
 - 1x **WEMOS D1 mini** (tarjeta principal)
@@ -17,4 +17,5 @@ Los controles son código HTML con CSS y JS dentro de él. Están en el archivo 
 ![Configuración de pines](./esquemaLight.png#gh-light-mode-only)
 
 ~~No recuerdo cuál fue una de las razones por las que usé los pines RX y TX pero así quedó.~~
+
 Los pines tales como RX y TX deben estar desconectados al comunicar el Arduino con tu PC (al subir el código a la placa).
